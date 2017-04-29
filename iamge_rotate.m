@@ -1,7 +1,7 @@
 str=input('Enter name of the file you want to rotate','s');
 a=imread(strcat(str,'.bmp'));
 b=zeros(size(a,2),size(a,1));
-
+l=zeros(size(a,2),size(a,1));
 %rotate 90 degree
 for i=1:size(a,2)
     for j=1:size(a,1)

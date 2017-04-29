@@ -18,6 +18,6 @@ b=zeros(rn,cn);
             b(i,j)=a(in,jn);
         end
     end
-imwrite(uint8(b),'zelda_zoomed.bmp');
+%imwrite(uint8(b),'zelda_zoomed.bmp');
 imshow(uint8(a))
 figure, imshow(uint8(b))
